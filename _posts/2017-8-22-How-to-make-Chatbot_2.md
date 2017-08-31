@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 공짜로 챗봇 만들기 2 - C9으로 앵무새 봇 만들기!(with KakaoTalk)
+title: 공짜로 챗봇 개발하기 2 - C9으로 앵무새 봇 만들기!(with KakaoTalk)
 ---
 ##### * 이 글은 챗봇 개발을 위한 기본적인 환경구성 방법을 소개합니다.
 ##### * 이 글은 개인적인 챗봇 개발경험을 바탕으로 작성되었습니다.
@@ -29,7 +29,7 @@ title: 공짜로 챗봇 만들기 2 - C9으로 앵무새 봇 만들기!(with Kak
 ![5](https://github.com/Tadoya/tadoya.github.io/blob/master/images/c9/5.png?raw=true)  
 6. app.js 파일을 생성한 후 다음코드를 입력하고 상단의 run버튼을 누르면 Node.js 서버가 동작되고, 로그의 URL을 누르면 "Hello world"를 확인할 수 있다.  
 ![6](https://github.com/Tadoya/tadoya.github.io/blob/master/images/c9/6.png?raw=true)  
-```
+```javascript
     const express = require("express");
     const app = express();
 
