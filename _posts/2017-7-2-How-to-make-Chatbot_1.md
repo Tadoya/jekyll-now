@@ -32,14 +32,14 @@ HTTPS 서버를 구성하기 위해선 **금전적 비용**이 필요하다.
 
   - [http://내도메인.한국?](http://내도메인.한국) 이게 도메인 주소였어?  
     먼저 도메인 주소가 필요한 이유는 뭘까? Webhook은 SSL(Secure Sockets Layer)이 적용된 URL을 요구한다. 따라서, SSL을 적용하려면 도메인 주소가 필요하다. (특별한 경우가 아니라면 IP주소만으로 SSL을 적용할 수 없다.)  
-    결론적으로 "[내도메인.한국](http://내도메인.한국)"을 이용하여 무료로 도메인 주소를 얻을 수 있다. [자세히 보기](https://tadoya.github.io/How-to-make-Chatbot_5/)
+    결론적으로 "[내도메인.한국](http://내도메인.한국)"을 이용하여 무료로 도메인 주소를 얻을 수 있다. [자세히 보기(작성 예정중)](https://tadoya.github.io/How-to-make-Chatbot_5/)
   
   - SSL? [Lets' Encrypt](https://letsencrypt.org)로 해결!  
     도메인주소를 만들었다면, 이제 SSL을 적용한 HTTPS 통신환경을 통해 챗봇을 개발하기 위한 서버 환경 구성을 끝낸다.  
     [Lets' Encrypt](https://letsencrypt.org)나, [GOGETSSL(예전 ComodoSSL)](https://www.gogetssl.com)을 이용하면 무료로 SSL를 적용할 수 있다.
 
-  - (번외) 위 세 가지 조건을 모두 갖춘 [C9](https://c9.io)!  
-     [C9](https://c9.io)은 IDE서비스 중 하나이다. 그리고 이를 이용하면 위와 같은 환경구성 과정없이 챗봇을 개발할 수 있다. 물론, 이는 임시적인 개발환경을 제공할 뿐, 실제 챗봇 서비스를 운영하려면 개인 봇 서버가 필요하다.  
+  - (번외) 위 세 가지 조건을 모두 갖춘 IDE서비스! (ex [C9](https://c9.io))  
+     [C9](https://c9.io)은 아마존이 제공하는(인수한) IDE서비스 중 하나이다. 그리고 이를 이용하면 위와 같은 환경구성 과정없이 챗봇을 개발할 수 있다. 물론, 이는 임시적인 개발환경을 제공할 뿐, 실제 챗봇 서비스를 운영하려면 개인 봇 서버가 필요하다. [자세히 보기](https://tadoya.github.io/How-to-make-Chatbot_2/)
 
 ---
 공짜로 챗봇 만들기 시리즈
